@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique de Chaussures</title>
+    <link rel="stylesheet" href="nnn.css">
+</head>
+<body>
+    <div class="b">
+        <center><div class="c"></div></center>
+       <center><h1>GABRIEL WANYA</h1></center>
+        <center><p>Email : gabrielwanya@gmail.com<p></p></p></center>
+        <center><p> Telephone : 0601020304056<p> </center>   
+       <center> <p><A href="#">Linkedin</A> | <a href="#">Twitter</a> </p></center>
+        
+          </div>
+       
+</body>
+</html>
