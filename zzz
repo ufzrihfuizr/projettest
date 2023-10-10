@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+     <header > 
+        
+
+        <div class="bloc2">
+            <h1>GABRIEL GABRIEL</h1><br> né le 25 janvier 1990<br>Impasse des Acacias<br>+33 6 33 29 85 88<br>pierre.giraud@edhec.com<br>Permis B(voiture)</div>
+        <div class="bloc1"> <img src="php.png"> </div>
+    </header> 
+    <section>
+        <h1> Formation</h1>
+        <div class="bloc3">
+            <b>2019-ajd   :</b><br></br>
+            <b>2007-2008  :</b><br></br>
+            <b>2006-2007  :</b><br></br>
+        </div>
+        <div class="bloc33"> 
+        <b>premier texte</b><br>j'ecris un peu je ne suis passpasser chez sosh le but d'ecrire lenetement blablabla </br>
+        <b>deuxieme texte</b><br>j'ecris un peu je ne suis passpasser chez sosh le but d'ecrire lenetement blablabla </br>
+        <b>troisieme texte</b><br>j'ecris un peu je ne suis passpasser chez sosh le but d'ecrire lenetement blablabla </br>
+        </div>
+    </section>
+
+    <section>
+        <h1> Experiences proffesionnelle</h1>
+        <div class="bloc3">
+            <b>2019-ajd   :</b><br></br>
+            <b>2007-2008  :</b><br></br>
+            <b>2006-2007  :</b><br></br>
+        </div>
+        <div class="bloc33"> 
+        <b>premier texte</b><br>j'ecris un peu je ne suis passpasser chez sosh le but d'ecrire lenetement blablabla </br>
+        <b>deuxieme texte</b><br>j'ecris un peu je ne suis passpasser chez sosh le but d'ecrire lenetement blablabla </br>
+        <b>troisieme texte</b><br>j'ecris un peu je ne suis passpasser chez sosh le but d'ecrire lenetement blablabla </br>
+        </div>
+    </section>
+
+    <section>
+        <h1> Competences</h1>
+        <div class="bloc3">
+            <b>2019-ajd  :</b><br></br>
+            <b>2007-2008 :</b><br></br>
+            <b>2006-2007 :</b><br></br>
+        </div>
+        <div class="bloc33"> 
+        <b>premier texte</b><br>j'ecris un peu je ne suis passpasser chez sosh le but d'ecrire lenetement blablabla </br>
+        <b>deuxieme texte</b><br>j'ecris un peu je ne suis passpasser chez sosh le but d'ecrire lenetement blablabla </br>
+        <b>troisieme texte</b><br>j'ecris un peu je ne suis passpasser chez sosh le but d'ecrire lenetement blablabla </br>
+        </div>
+    </section>
+    <section>
+        <h1> Competences transversales</h1>
+        <div class="bloc3">
+            <b>2019-ajd  :</b><br></br>
+            <b>2007-2008 :</b><br></br>
+            <b>2006-2007 :</b><br></br>
+        </div>
+        <div class="bloc33"> 
+        <b>premier texte</b><br>j'ecris un peu je ne suis passpasser chez sosh le but d'ecrire lenetement blablabla </br>
+        <b>deuxieme texte</b><br>j'ecris un peu je ne suis passpasser chez sosh le but d'ecrire lenetement blablabla </br>
+        <b>troisieme texte</b><br>j'ecris un peu je ne suis passpasser chez sosh le but d'ecrire lenetement blablabla </br>
+        </div>
+    </section>
+
+   
+</body>
+</html>
