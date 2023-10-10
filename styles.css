@@ -1,0 +1,54 @@
+div.bloc2{
+   
+   float: left;
+   
+   
+}
+div.bloc1{
+
+    height: 45px;
+    
+    float: right ;
+    
+    
+}
+div.bloc3{
+   
+   
+    float: left;
+   
+   
+}
+div.bloc33{
+   
+    
+    float: center  ;
+   
+   
+}
+header{
+   border: 100px white ;
+     height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: floralwhite;
+    
+    
+    
+}
+body
+ {
+    border: 5px solid #000;
+
+    margin: 200px;
+}
+{
+background-color: whitesmoke;
+}
+section {
+    border: 4px  white;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: floralwhite;
+}    
