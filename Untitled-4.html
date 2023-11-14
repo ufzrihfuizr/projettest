@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grr.css">
+    <script >function affichetab(){
+        document.write('<table border=2px width=30%>');
+            for (var i = 0; i <= 5;i++){
+                document.write('<tr><td>*</td><td>*</td><td>*</td></tr></td></tr>');
+    
+            }
+            document.write('</table>');
+    }
+    function seconnecter() {
+        var login = prompt("Donner votre nom d'utilisateur");
+        var password = prompt("Entrer votre mot de passe ");
+    
+        if (login == "admin" && password == "admin") {
+            document.write("Bienvenue " + login)
+        } else {
+            alert("Accès refusé");
+        }
+    }
+    function cdc(){
+        var chaine = prompt("donnez un mot");
+        document.write(chaine.toUpperCase()+"<br>");
+        document.write(chaine.toLowerCase()+"<br>");
+        document.write("la chaine contient  "+ chaine.length+" caracteres " + "<br>");
+        document.write("La premiere lettre est   "+ chaine.substr(chaine.length,1) + "<br>");
+
+    }
+    function seconnecter3(){
+        var i = 0 ;
+        do{
+            var id = prompt("Entrez votre nom d'utilisateur");
+            var mdp = prompt("Entre votre mot de passe");
+            if(id == "admin" && mdp == "admin")
+            {
+                document.write("Bienvenue"+id);
+                break;
+            }
+            else
+            alert("Acces refusé");
+            i +=1 ;
+        }while (i<3) ;
+        if (i==3)
+        alert("Delai dépassé");
+    }
+    function ajout(){
+        
+        var table = document.getElementbyId("mytable" );
+        var newRow = table.createElement('tr') ;
+        var cell1 = newRow.insertCell(0);
+        var cell2 = newRow.insertCell(1) ;
+        cell1.innerHTML = "NOUVEAU Nom";
+        cell2.innerHTML = "Nouvel Age" ;
+    }
+    function swich(){
+        var color= prompt("Entrez une couleur");
+        switch (color)
+        {
+            case "rouge" : document.body.style.background = "red";
+            break;
+            case "ROUGE" : document.body.style.background = "red" ;
+            break;
+            case "bleu" : document.body.style.background = "blue" ;
+            break;
+            case "BLEU" : document.body.style.background ="Blue" ;
+            break;
+            case "vert" : document.body.style.background ="green" ;
+            break;
+            case "VERT" : document.body.style.background ="green" ;
+            break;
+            default:alert("couleur non definie");
+        }
+    }</script>
+</head>
+
+<body>
+<h2>Tableau Dynamique</h2>
+<table id="my table">
+    <tr><td>Nom</td><td>Age</td></tr><tr><td>John</td><td>30</td></tr><tr><td>Jane</td><td>25</td></tr>
+</table>
+
+    <div class="container">
+        <center>
+            <h1>TP9</h1>
+
+            <button onclick="affichetab()">Affichage tableau</button>
+            <button onclick="affichetab2()">tableau 2</button>
+            <button onclick="seconnecter()">Se connecter</button>
+            <button onclick="seconnecter3()">Se connecgter</button>
+            <button onclick="window.location.href='cnnection2.html'">connecter 2</button>
+            <button onclick="cdc()">Chaine de caractère</button>
+            <button onclick="swich()">Couleur</button>
+            <button onclick="bonus()">Bonus</button>
+            <button onclick="window.location.href='mwakamoon.html';">Ajouter une ligne </button>
+
+        </center>
+
+    </div>
+</body>
+
+</html>

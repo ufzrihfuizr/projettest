@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1> Page Identification </h1>
+        <div>
+            username: <input type="text" name="t1" id="t1">
+            pswd: <input type="text" name="t1" id="t2">
+            <button onclick="check()">Connexion</button>
+            <button>Annuler</button>
+        </div>
+        <script>
+            function check() {
+                var username =document.getElementById('t1').value;
+                var password = document.getElementById('t2').value;
+                if(username == "admin" && password == "admin"){
+                    window.location.href = "piece3.html " ;
+                }
+                else{
+                    window.location.href="www.google.com" ;
+                }
+            }
+        </script>
+    </body>
+    </html>
