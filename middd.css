@@ -65,7 +65,7 @@ nav  ul  li{
     border-top: 5px solid #e44d26;
     background-color: RGBa(228,77,0.15);
  }
-.menucertif{
+.menucertif:hover{
     border-top: 5px solid #e44d26;
     background-color: RGBa(228,77,0.15);
 }
